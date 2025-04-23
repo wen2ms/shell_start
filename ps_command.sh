@@ -12,6 +12,7 @@ ps -f
 ps -ef | head -n 5
 
 # -C: command name
+# u: BSD style
 ps -C python u
 
 ps -u root -f 
