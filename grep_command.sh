@@ -26,3 +26,6 @@ grep -lr ".sh" .
 
 # -E: extend regular expression
 grep -E "grep|-" grep_command.sh
+
+# --include, --exclude, --exclude-dir
+grep -r --include="*.sh" --include="*.md" "command" .
