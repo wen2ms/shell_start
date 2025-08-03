@@ -1,0 +1,14 @@
+# /etc/systemd/system/foo.service
+
+[Unit]
+Description=My Foo Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/foo.sh
+# Automatically restart when script fails
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
