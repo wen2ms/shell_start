@@ -21,3 +21,6 @@ find . -ctime +1
 find . -type f -name "*.sh"
 # d: directory
 find . -type d -name "*command"
+
+# delete 
+find . ! -name '*.sh' -delete

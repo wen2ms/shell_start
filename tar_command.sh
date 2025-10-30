@@ -12,7 +12,7 @@ tar -cf foo.tar foo.sh foo.service
 tar -czf foo.tar.gz foo.sh foo.service
 
 # -j: bzip2 format
-tar -cbf foo.tar.bz2 foo.sh
+tar -cjf foo.tar.bz2 foo.sh
 
 # extract
 

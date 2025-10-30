@@ -17,9 +17,11 @@ chmod u=rw,g=r,o=r file.txt
 chmod 755 file.txt
 
 # Recursively change permissions in directory
+# Attention: x permissions are required
 chmod -R 644 myfolder/
 
 # Set execute permission for all (user, group, others)
+# chmod +x script.sh
 chmod a+x script.sh
 
 # Remove all permissions from others

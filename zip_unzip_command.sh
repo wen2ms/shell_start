@@ -8,6 +8,10 @@ zip -q foo.zip foo.sh
 # -r: zip recursively
 zip -r shell_start.zip ./
 
+# -s: split zip
+# zip -r -s 100m shell_start.zip ./
+zip -r -s 1g shell_start.zip ./
+
 # -e: encrypted zip
 zip -e foo.zip foo.sh
 
