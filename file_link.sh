@@ -12,3 +12,5 @@ echo bar... > bar.txt
 rm quz.txt
 
 ln bar.txt quz.txt
+
+ls -li bar.txt quz.txt

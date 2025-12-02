@@ -3,11 +3,16 @@
 # Disk Usage
 du
 
+# Default directories and subdirectories
 # -h: Human-readable
 du -h
 
-# -s: Summary: show only total for each argument
+# -s: Summarize: show only total for each argument
 du -sh
+
+# For each files and directories excluding subdirectories
+# * mismatch hidden files like .git 
+du -sh *
 
 # --max-depth=N: same as -d Show depth of N level
 du -h --max-depth=2
