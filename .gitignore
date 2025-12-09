@@ -1,5 +1,8 @@
 # MacOS
 .DS_Store
 
-# Foo files
+# Meta files 
 bar.sh
+
+# Logs
+baz.log

@@ -28,3 +28,11 @@ curl -L example.com
 
 # -v: verbose
 curl -v example.com
+
+# -u: username
+# curl -u username:password url
+curl -u user:123456 http://example.com/secure
+
+# -C: Continue
+# -: Automatically continue position
+curl -C - -O http://example.com/bigfile.zip
