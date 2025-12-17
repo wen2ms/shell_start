@@ -22,5 +22,15 @@ find . -type f -name "*.sh"
 # d: directory
 find . -type d -name "*command"
 
-# delete 
+# delete
 find . ! -name '*.sh' -delete
+
+# -o: or
+find . -name '*.sh' -o -name '*.txt'
+
+# -path: Match path, must use ./
+# -print: print to stdout
+find . -path './build/*' -o -print
+
+# -prune: Don't enter subdir
+find . -path './build' -prune -o -print
