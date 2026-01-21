@@ -7,7 +7,7 @@ su
 su john
 
 # -l: login shell
-su - john
+su -l john
 
 # -c: execute a single command as another user
 su -c "ls /root"

@@ -8,6 +8,8 @@ echo $HOME
 echo $SHELL
 
 # current shell
+# -bash: login shell
+# bash: unlogin shell
 echo $0
 
 # change shell

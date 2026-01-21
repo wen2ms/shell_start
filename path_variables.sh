@@ -18,3 +18,8 @@ echo $num
 # readonly name
 readonly name="wen2ms"
 name="w2ms"
+
+# export VAR=var
+# source /etc/zprofile
+# source /etc/profile
+# echo $VAR
