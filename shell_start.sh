@@ -13,7 +13,7 @@ echo $0
 # change shell
 # /bin/zsh
 
-echo "Hello Shell"
+echo "Hello Shell" >>foo.txt
 
 date
 
