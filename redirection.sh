@@ -23,3 +23,5 @@ c
 d
 e
 EOF
+
+rm acc.acc 2>/dev/null

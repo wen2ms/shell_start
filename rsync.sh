@@ -15,3 +15,7 @@ rsync -avz -e 'ssh' user@ip:/remote/path/ local/
 
 # --progress: real-time progressing
 rsync -av --progress local/ user@ip:/remote/path/
+
+# --dry-run: trail run
+# --delete: delete redundant files on remote
+rsync -av --dry-run --delete local/ user@ip:/remote/path/
