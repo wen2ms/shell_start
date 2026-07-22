@@ -19,3 +19,9 @@ rsync -av --progress local/ user@ip:/remote/path/
 # --dry-run: trail run
 # --delete: delete redundant files on remote
 rsync -av --dry-run --delete local/ user@ip:/remote/path/
+
+# -n: --dry-run
+# -i: show information
+rsync -avni --delete local/ user@ip:/remote/path/
+
+rsync -av --exclude='__pycache__/' --exclude='.git' src/ target/

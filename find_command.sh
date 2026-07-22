@@ -27,6 +27,8 @@ find . ! -name '*.sh' -delete
 
 # -o: or
 find . -name '*.sh' -o -name '*.txt'
+# must add a space before \( and behind \)
+find . -type f \( -name '*.sh' -o -name '*(1)' \)
 
 # -path: Match path, must use ./
 # -print: print to stdout
